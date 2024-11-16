@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Filmes Populares</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho__api">
+                <input class="cabecalho__chave" id="chave" type="text" placeholder="Chave da API da TMDB" min="32" max="32">
+                <button class="cabecalho__botao">Salvar</button>
+            </div>
+            <h1 class="cabecalho__titulo">Filmes Populares</h1>
+            <input class="cabecalho__pesquisa" id="pesquisa" type="text" placeholder="Digite algum filme para pesquisar...">
+            <label class="cabecalho__label">
+                <input class="cabecalho__checkbox" type="checkbox" name="checkbox" id="checkbox">
+                <span  class="cabecalho__label-texto">Mostrar meus filmes favoritos apenas</span>
+            </label>
+        </header>
+        <main class="principal">
+            <ul class="principal__filmes">
+                <li class="principal__filme">
+                    <img class="principal__filme-imagem" src="img/batman.png" alt="Capa do filme The Batman">
+                    <div class="principal__filme-dados">
+                        <h2 class="principal__filme-titulo">Batman (2022)</h2>
+                        <div class="principal__filme-acoes">
+                            <div class="principal__filme-estrelas">
+                                <img class="principal__filme-estrela" src="img/estrela.svg" alt="Icone de avaliação">
+                                <p class="principal__filme-avaliacao">9.4</p>
+                            </div>
+                            <div class="principal__filme-favoritos">
+                                <img class="principal__filme-favorito" src="img/coracao_vazio.svg" alt="Icone de favorito">
+                                <p class="principal__filme-favoritar">Favoritar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="principal__filme-descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+                <li class="principal__filme">
+                    <img class="principal__filme-imagem" src="img/avatar.png" alt="Capa do filme The Batman">
+                    <div class="principal__filme-dados">
+                        <h2 class="principal__filme-titulo">Avatar (2009)</h2>
+                        <div class="principal__filme-acoes">
+                            <div class="principal__filme-estrelas">
+                                <img class="principal__filme-estrela" src="img/estrela.svg" alt="Icone de avaliação">
+                                <p class="principal__filme-avaliacao">9.5</p>
+                            </div>
+                            <div class="principal__filme-favoritos">
+                                <img class="principal__filme-favorito" src="img/coracao_vazio.svg" alt="Icone de favorito">
+                                <p class="principal__filme-favoritar">Favoritar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="principal__filme-descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+            </ul>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

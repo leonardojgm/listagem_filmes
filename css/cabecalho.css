@@ -1,0 +1,79 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.cabecalho__api {
+    align-self: flex-end;
+}
+
+.cabecalho__chave {
+    width: 9rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: var(--branco-transparente);
+    color: var(--cinza);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.cabecalho__botao {
+    border: 1px solid var(--lilaz);
+    border-radius: 0.4rem;
+    border: none;
+    background-color: var(--lilaz);
+    color: var(--branco);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 0 1rem 1.5rem 0;
+}
+
+.cabecalho__botao:hover {
+    background-color: var(--branco);
+    color: var(--lilaz);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cabecalho__titulo {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 3rem 0 3rem 0;
+}
+
+.cabecalho__pesquisa {
+    width: 50%;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: var(--branco-transparente);
+    color: var(--cinza);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1.5rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.cabecalho__pesquisa::placeholder {
+    background-image: url(../img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.cabecalho__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cabecalho__checkbox {
+    margin-right: 0.5rem;
+    accent-color: var(--lilaz);
+}
